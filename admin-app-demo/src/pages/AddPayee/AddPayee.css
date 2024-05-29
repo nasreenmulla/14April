@@ -1,0 +1,305 @@
+
+  /* .Pwrapper {
+    position: relative;
+    z-index: 10;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-image: url('C:/Users/Teciza/Desktop/14april/admin-app-demo/src/pages/AddPayee/payee.jpg');
+    background-size: cover; 
+    background-position: center;
+  } */
+    
+    
+    
+  
+/*   
+  .add-bank-form {
+    width: 300px;
+    border: 1px solid #ccc; 
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-left: 260px; 
+    background-color: #ffffffd1; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+   
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+   */
+  /* input {
+    width: calc(100% - 40px); 
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+  }
+  
+  button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  } */
+  
+  /* button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .table-container {
+    max-height: 550px;
+   
+    
+    
+    overflow: auto;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .table-container .table-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  
+  } */
+/*   
+  .table-container .table-header label {
+    margin-right: 10px;
+  }
+  
+  .table-container .table-header select {
+
+    border: 1px solid #ccc;
+    border-radius: 1px;
+  } */
+  
+  /* .table-container .table-header input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .bank-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bank-table th,
+  .bank-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .bank-table th {
+    background-color: #f2f2f2;
+  }
+  
+
+  .Search{
+    display: flex;
+  }
+  .Entry{
+    display: flex;
+  }
+  
+   .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 9999; 
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+   */
+  /* .modal-content {
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, opacity 0.3s;
+    transform: translateY(-100%);
+    opacity: 0; 
+  }
+   */
+  /* .modal-container.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .modal-container.show .modal-content {
+    transform: translateY(0);
+    opacity: 1; 
+  } */
+  
+
+
+
+  .Pwrapper {
+    position: relative;
+    z-index: 10; /* Ensure it's above other content */
+    min-height: 100vh; /* Ensure it covers the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:/Users/Teciza/Desktop/14april/admin-app-demo/src/pages/AddPayee/payee.jpg');
+    background-size: cover; /* Ensure the background covers the entire area */
+    background-position: center; /* Center the background image */
+  }
+  
+  .add-bank-form {
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #ccc; /* Thin border */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 150px; /* Adjust margin-top as needed */
+    margin-left: 260px; /* Adjust margin-left to align with left-side menu */
+    background-color: #ffffff; /* Solid background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for elevation */
+    display: flex;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: calc(100% - 40px); /* Adjust width to accommodate label and input padding */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Thin border */
+    border-radius: 3px; /* Rounded corners */
+  }
+  
+  button {
+    background-color: #007bff; /* Blue color for button */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  .table-container {
+    max-height: 550px; /* Set the fixed height as needed */
+    overflow: auto;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px; /* Add margin to the right */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff; /* Solid background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-container .table-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .table-container .table-header label {
+    margin-right: 10px;
+  }
+  
+  .table-container .table-header select {
+    border: 1px solid #ccc;
+    border-radius: 1px;
+  }
+  
+  .table-container .table-header input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .bank-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; /* Solid background color */
+  }
+  
+  .bank-table th,
+  .bank-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .bank-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .Search {
+    display: flex;
+  }
+  
+  .Entry {
+    display: flex;
+  }
+  
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay background */
+    z-index: 9999; /* Ensure modal is on top of other content */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .modal-content {
+    background-color: #ffffff; /* Solid background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, opacity 0.3s;
+    transform: translateY(-100%);
+    opacity: 0; /* Initially hidden */
+  }
+  
+  .modal-container.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .modal-container.show .modal-content {
+    transform: translateY(0);
+    opacity: 1; /* Fade in */
+  }
+  

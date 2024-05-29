@@ -1,0 +1,11 @@
+.Dwrapper {
+    position: relative;
+    z-index: 10; /* Ensure it's above other content */
+    min-height: 100vh; /* Ensure it covers the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:\Users\Teciza\Desktop\14april\admin-app-demo\src\pages\Design\table-pen-ink-wallpaper-preview.jpg');
+    background-size: cover; /* Ensure the background covers the entire area */
+    background-position: center; /* Center the background image */
+  }

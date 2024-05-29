@@ -1,0 +1,19 @@
+
+
+.centered-component {
+    width: calc(100% - 40px); /* Subtracting 20px padding from left and right */
+    max-width: 600px; /* Example max-width */
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+.wrapper {
+  position: relative;
+  z-index: 10; /* Ensure it's above other content */
+  min-height: 100vh; /* Ensure it covers the entire viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
